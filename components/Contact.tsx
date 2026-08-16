@@ -12,13 +12,13 @@ export default function Contact() {
       </h2>
       <div className="flex flex-wrap gap-4">
         <a
-          href="https://wa.me/YOUR_NUMBER_HERE"
+          href="https://wa.me/254716555311"
           className="font-mono text-sm uppercase tracking-wide border border-brass text-brass px-6 py-3 rounded-sm hover:bg-brass hover:text-ink transition-colors"
         >
           Chat on WhatsApp
         </a>
         <a
-          href="mailto:YOUR_EMAIL_HERE"
+          href="mailto:infodteqsolutions@gmail.com"
           className="font-mono text-sm uppercase tracking-wide border border-paper/40 text-paper px-6 py-3 rounded-sm hover:border-paper transition-colors"
         >
           Email me
