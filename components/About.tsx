@@ -9,10 +9,13 @@ export default function About() {
       </h2>
       <p className="text-paper/80 leading-relaxed text-lg">
         I&apos;m Derrick, and I run DTEQ Solutions — I design and build web
-        systems for community groups, associations, and businesses across
-        Kenya. From member management portals to campus marketplaces, I focus
-        on replacing manual, paper-based processes with tools people actually
-        use.
+        systems for community groups, associations, and businesses across Kenya.
+        I&apos;m also a third-year Accounting &amp; Finance student, which shows
+        up directly in how I build: I understand what a passbook, a running
+        balance, or a reconciliation actually needs to be trustworthy, not just
+        how to code one. From member management portals to campus marketplaces, I
+        focus on replacing manual, paper-based processes with tools people
+        actually use.
       </p>
     </section>
   );

@@ -21,7 +21,7 @@ export default function Home() {
           before="A four-branch community association was tracking member contributions on paper across branches, making it hard to consolidate records or verify totals."
           built="A demo of a multi-branch portal where members log in once and see their contributions across branches, admins manage their branch independently, and the system auto-calculates running totals — no manual tallying. Presenting to the committee for approval this week."
           stack="Next.js, Supabase"
-          images={["/images/uae-hero.png"]}
+          images={["/images/uae-hero.png", "/images/uae-trust.png"]}
         />
 
         <CaseStudy
@@ -34,9 +34,13 @@ export default function Home() {
           stack="Next.js, Supabase, deployed on Vercel with a custom domain"
           images={[
             "/images/ekb-hero.png",
+            "/images/ekb-dashboard.png",
+            "/images/ekb-weekly.png",
             "/images/ekb-about.png",
             "/images/ekb-services.png",
           ]}
+          url="https://elitekahoyabrothers.com"
+          linkLabel="View live site"
         />
 
         <CaseStudy
@@ -49,8 +53,9 @@ export default function Home() {
           stack="Next.js, Supabase"
           images={[
             "/images/mvcorner-hero.png",
-            "/images/mvcorner-resources.png",
-            "/images/mvcorner-marketplace.png",
+            "/images/mvcorner-buysell.png",
+            "/images/mvcorner-search.png",
+            "/images/mvcorner-pdf-preview.png",
           ]}
         />
 

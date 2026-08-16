@@ -10,6 +10,8 @@ type Props = {
   built: string;
   stack: string;
   images?: string[];
+  url?: string;
+  linkLabel?: string;
 };
 
 export default function CaseStudy({
@@ -21,6 +23,8 @@ export default function CaseStudy({
   built,
   stack,
   images,
+  url,
+  linkLabel = "View live site",
 }: Props) {
   return (
     <article className="grid md:grid-cols-[auto_1fr] gap-6 md:gap-10 py-14 border-b border-rule/20">
@@ -67,6 +71,18 @@ export default function CaseStudy({
         <p className="font-mono text-xs uppercase tracking-wide text-ink/60 mt-6">
           Stack — {stack}
         </p>
+        {url && (
+          <div className="mt-3">
+            <a
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono text-xs uppercase tracking-wide text-brass hover:underline inline-flex items-center gap-1"
+            >
+              {linkLabel} &rarr;
+            </a>
+          </div>
+        )}
       </div>
     </article>
   );
