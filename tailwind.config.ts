@@ -8,15 +8,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#12161C",
-        paper: "#EFE9D8",
-        rule: "#C9BFA0",
-        brass: "#B8874B",
-        stampRed: "#A6402F",
-        stampGreen: "#3C6E52",
+        navy: "#16345E",  // headings, body text (from the DTK360 wordmark)
+        blue: "#2F6A9A",  // links, accents (from the swoosh)
+        teal: "#257483",  // "Delivered/Live" stamps, highlights (from the 360 arrow)
+        amber: "#A5641A",  // "pending" stamps only
+        mist: "#EEF1F4",  // page background (the silver of the logo backdrop)
+        line: "#D3DCE6",  // ruled lines and borders
       },
       fontFamily: {
-        display: ["var(--font-fraunces)", "serif"],
+        display: ["var(--font-montserrat)", "sans-serif"],
         body: ["var(--font-plex-sans)", "sans-serif"],
         mono: ["var(--font-plex-mono)", "monospace"],
       },

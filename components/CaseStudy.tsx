@@ -5,7 +5,7 @@ type Props = {
   index: string; // "01", "02"...
   title: string;
   stampLabel: string;
-  stampTone: "green" | "red" | "brass";
+  stampTone: "teal" | "amber" | "blue";
   before: string;
   built: string;
   stack: string;
@@ -27,10 +27,10 @@ export default function CaseStudy({
   linkLabel = "View live site",
 }: Props) {
   return (
-    <article className="grid md:grid-cols-[auto_1fr] gap-6 md:gap-10 py-14 border-b border-rule/20">
-      <div className="font-mono text-brass/70 text-sm md:pt-2">{index}</div>
+    <article className="grid md:grid-cols-[auto_1fr] gap-6 md:gap-10 py-14 border-b border-line/20">
+      <div className="font-mono text-blue/70 text-sm md:pt-2">{index}</div>
 
-      <div className="bg-paper text-ink rounded-sm ledger-lines p-6 md:p-10 relative overflow-hidden">
+      <div className="bg-white text-navy rounded-sm border border-line shadow-sm ledger-lines p-6 md:p-10 relative overflow-hidden">
         <div className="flex items-start justify-between gap-4 mb-4">
           <h3 className="font-display text-2xl md:text-3xl">{title}</h3>
           <StatusStamp label={stampLabel} tone={stampTone} />
@@ -43,7 +43,7 @@ export default function CaseStudy({
                 key={i}
                 className={`relative shrink-0 ${
                   images.length === 1 ? "w-full" : "w-[85%] md:w-[75%]"
-                } aspect-video border border-ink/10 rounded-sm overflow-hidden bg-ink/5 snap-start`}
+                } aspect-video border border-navy/10 rounded-sm overflow-hidden bg-navy/5 snap-start`}
               >
                 <Image
                   src={src}
@@ -57,18 +57,18 @@ export default function CaseStudy({
         )}
 
         <p className="text-sm md:text-base leading-relaxed mb-3">
-          <span className="font-mono uppercase text-xs tracking-wide text-ink/50 block mb-1">
+          <span className="font-mono uppercase text-xs tracking-wide text-navy/50 block mb-1">
             Before
           </span>
           {before}
         </p>
         <p className="text-sm md:text-base leading-relaxed mb-3">
-          <span className="font-mono uppercase text-xs tracking-wide text-ink/50 block mb-1">
+          <span className="font-mono uppercase text-xs tracking-wide text-navy/50 block mb-1">
             Built
           </span>
           {built}
         </p>
-        <p className="font-mono text-xs uppercase tracking-wide text-ink/60 mt-6">
+        <p className="font-mono text-xs uppercase tracking-wide text-navy/60 mt-6">
           Stack — {stack}
         </p>
         {url && (
@@ -77,7 +77,7 @@ export default function CaseStudy({
               href={url}
               target="_blank"
               rel="noopener noreferrer"
-              className="font-mono text-xs uppercase tracking-wide text-brass hover:underline inline-flex items-center gap-1"
+              className="font-mono text-xs uppercase tracking-wide text-blue hover:underline inline-flex items-center gap-1"
             >
               {linkLabel} &rarr;
             </a>

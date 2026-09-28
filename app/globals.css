@@ -7,8 +7,8 @@ html {
 }
 
 body {
-  background-color: #12161c;
-  color: #efe9d8;
+  background-color: #EEF1F4;
+  color: #16345E;
 }
 
 /* Ruled paper background used inside case-study cards.
@@ -18,7 +18,7 @@ body {
     to bottom,
     transparent,
     transparent 27px,
-    rgba(18, 22, 28, 0.12) 28px
+    rgba(22, 52, 94, 0.07) 28px
   );
 }
 

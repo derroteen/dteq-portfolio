@@ -1,4 +1,4 @@
-# DTEQ Solutions Portfolio
+# DTK360 Softwares Limited Portfolio
 
 Single-page portfolio built with Next.js 14 (App Router) + Tailwind CSS.
 Design concept: "The Ledger" — case studies styled as ledger sheets with

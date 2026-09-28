@@ -1,9 +1,9 @@
-type StampTone = "green" | "red" | "brass";
+type StampTone = "teal" | "amber" | "blue";
 
 const toneStyles: Record<StampTone, string> = {
-  green: "border-stampGreen text-stampGreen",
-  red: "border-stampRed text-stampRed",
-  brass: "border-brass text-brass",
+  teal: "border-teal text-teal",
+  amber: "border-amber text-amber",
+  blue: "border-blue text-blue",
 };
 
 export default function StatusStamp({

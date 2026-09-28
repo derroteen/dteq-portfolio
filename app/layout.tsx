@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
-import { Fraunces, IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
+import { Montserrat, IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 
-const fraunces = Fraunces({
+const montserrat = Montserrat({
   subsets: ["latin"],
-  variable: "--font-fraunces",
-  style: ["normal", "italic"],
-  weight: ["400", "500", "600"],
+  variable: "--font-montserrat",
+  weight: ["600", "700", "800"],
 });
 
 const plexSans = IBM_Plex_Sans({
@@ -22,7 +21,7 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DTEQ Solutions — Web systems for community & campus organizations",
+  title: "DTK360 Softwares Limited — Web systems for community & campus organizations",
   description:
     "I build web systems that help Kenyan chamas, associations, and campus businesses manage members, payments, and records — without the spreadsheet chaos.",
 };
@@ -35,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${fraunces.variable} ${plexSans.variable} ${plexMono.variable} font-body`}
+        className={`${montserrat.variable} ${plexSans.variable} ${plexMono.variable} font-body`}
       >
         {children}
       </body>
