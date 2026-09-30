@@ -8,12 +8,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        navy: "#16345E",  // headings, body text (from the DTK360 wordmark)
-        blue: "#2F6A9A",  // links, accents (from the swoosh)
-        teal: "#257483",  // "Delivered/Live" stamps, highlights (from the 360 arrow)
-        amber: "#A5641A",  // "pending" stamps only
-        mist: "#EEF1F4",  // page background (the silver of the logo backdrop)
-        line: "#D3DCE6",  // ruled lines and borders
+        ink: "#0B1524",      // page background
+        surface: "#101F33",  // card background
+        paper: "#E7ECF2",    // body text
+        blue: "#4F8FC0",     // links, accents
+        teal: "#3FB6C4",     // "Delivered/Live" stamps, highlights
+        amber: "#C98A3D",    // "pending" stamps only
+        line: "rgba(255,255,255,0.08)",  // ruled lines and borders
       },
       fontFamily: {
         display: ["var(--font-montserrat)", "sans-serif"],

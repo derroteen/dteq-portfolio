@@ -7,7 +7,7 @@ export default function About() {
       <h2 className="font-display text-3xl md:text-4xl mb-4">
         DTK360 Softwares Limited
       </h2>
-      <p className="text-navy/75 leading-relaxed text-lg">
+      <p className="text-paper/75 leading-relaxed text-lg">
         I&apos;m Derrick, and I run DTK360 Softwares Limited — I design and build web
         systems for community groups, associations, and businesses across Kenya.
         I&apos;m also a third-year Accounting &amp; Finance student, which shows

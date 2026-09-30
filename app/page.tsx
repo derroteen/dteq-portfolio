@@ -1,16 +1,19 @@
 import Hero from "@/components/Hero";
+import Services from "@/components/Services";
 import CaseStudy from "@/components/CaseStudy";
 import About from "@/components/About";
+import TechStack from "@/components/TechStack";
 import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
     <main>
       <Hero />
+      <Services />
 
       <section id="work" className="px-6 md:px-16">
         <p className="font-mono text-blue text-xs tracking-[0.3em] uppercase pt-20">
-          Selected work
+          Software & Web Projects
         </p>
 
         <CaseStudy
@@ -94,6 +97,7 @@ export default function Home() {
       </section>
 
       <About />
+      <TechStack />
       <Contact />
     </main>
   );
